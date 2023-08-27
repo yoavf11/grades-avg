@@ -1,0 +1,44 @@
+<html dir = "rtl">
+    <head>
+        <link rel="stylesheet" href="Grades-Avg.css">
+        <script src="./Grades-Avg.js"></script>
+    </head>
+    <div class="container">
+        <div>
+            <h1>חישוב ממוצע ציונים</h1>
+        </div>
+
+        <table id="table">
+            <tr>
+                <th>שם הקורס</th>
+                <th>נק"ז</th>
+                <th>ציון</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td><input type="text" name="courseName" id="courseName"/></td>
+                <td><input type="text" name="nkz" id="nkz"/></td>
+                <td><input type="text" name="grade" id="grade"/></td>
+                <td><input type="button" value="הוסף שורה" onClick="addRow()" id="add"></td>
+            </tr>
+        </table>
+
+        <div>
+            <p id="err"></p>
+        </div>
+
+        <br>
+        <button onclick="calcAvg()" id="calc">חישוב ממוצע</button>
+        
+        <div>
+            <h2>ממוצע כולל:</h2> 
+            <p id="res"></p>
+        </div>
+
+        <div>
+            <h2>כמה עליי לקבל כדי להגיע לממוצע</h2>
+        </div>
+    </div>
+
+</html>
+

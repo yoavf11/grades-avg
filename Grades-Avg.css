@@ -1,0 +1,83 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;    
+    text-align: center;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-right: 20%;
+    margin-left: 20%;
+    background: linear-gradient(#64b2e6, #2693e6);
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+    border-collapse: collapse;
+
+    text-align: center;
+}
+
+tr, th, td{
+    border: 1px solid black;
+}
+
+td {
+    padding: 2px 2px;
+ }
+
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:nth-child(odd){background-color: white;}
+tr:hover {background-color: #ddd;}
+
+th {
+    padding: 8px 8px;
+    background-color: #045daa;
+ }
+
+ #add, #del {
+    color: black;
+    background-color: #5370b8;
+    border: none;
+    padding: 3px 6px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+ #add:hover{
+    background-color: #567bd8;
+ }
+
+ #courseName, #nkz, #grade {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+
+}
+
+ #courseName:focus, #nkz:focus, #grade:focus {
+    outline: none;
+}
+
+#calc {
+    color: black;
+    background-color: #5370b8;
+    border: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+#calc:hover{
+    background-color: #567bd8;
+ }
+
+ h1{
+    text-decoration: underline;
+    
+ }
